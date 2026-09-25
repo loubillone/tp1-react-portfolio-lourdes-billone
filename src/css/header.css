@@ -1,0 +1,15 @@
+.contenedor-header {
+  margin: 5rem 0 5rem 0;
+}
+
+.contenedor-filas-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+}

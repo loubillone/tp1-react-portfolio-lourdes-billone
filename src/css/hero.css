@@ -1,0 +1,32 @@
+.foto-perfil {
+  display: inline-flex;
+  padding: 0.4rem;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #f07a7a, #b72929 50%, #7a1616);
+  box-shadow:
+    0 0 0 0.7rem rgba(183, 41, 41, 0.12),
+    0 1.2rem 2.8rem rgba(122, 22, 22, 0.22);
+}
+
+.foto-perfil img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 0 0 0.35rem #fff;
+}
+
+.contenedor-filas-hero {
+  margin: 5rem 25rem 5rem 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafo-hero {
+  font-size: 2.2rem;
+  color: #c84949;
+  line-height: 3rem;
+  padding: 2rem;
+}
