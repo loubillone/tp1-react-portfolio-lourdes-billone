@@ -4,8 +4,8 @@ import "../css/header.css";
 const Header = ({ nombre }) => {
   return (
     <header className="bg-dark text-white py-3">
-      <div className="container d-flex justify-content-between align-items-center">
-        <h2 className="m-0">{nombre}</h2>
+      <div className="container-header">
+        <h2 className="m-3">{nombre}</h2>
 
         <nav>
           <a href="#inicio" className="text-white text-decoration-none me-3">
@@ -16,7 +16,7 @@ const Header = ({ nombre }) => {
             Sobre mí
           </a>
 
-          <a href="#proyectos" className="text-white text-decoration-none">
+          <a href="#proyectos" className="text-white text-decoration-none m-3">
             Proyectos
           </a>
         </nav>

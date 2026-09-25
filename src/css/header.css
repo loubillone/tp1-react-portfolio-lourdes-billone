@@ -1,5 +1,8 @@
-.contenedor-header {
-  margin: 5rem 0 5rem 0;
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem 0 5rem;
 }
 
 .contenedor-filas-header {
