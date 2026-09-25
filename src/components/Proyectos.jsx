@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/proyectos.css";
 
 const Proyectos = () => {
   const proyectos = [
@@ -51,9 +52,37 @@ const Proyectos = () => {
     },
   ];
   return (
-    <div>
-      <h2>Proyectos</h2>
-    </div>
+    <section id="proyectos" className="proyectos">
+      <h2>Mis Proyectos</h2>
+      <div className="container">
+        <div className="row">
+          {proyectos.map((proyecto) => (
+            <div className="col-12 col-md-6 col-lg-4" key={proyecto.id}>
+              <div className="card proyecto-card">
+                <div className="card-body">
+                  <h5 className="card-title">{proyecto.titulo}</h5>
+
+                  <p className="card-text">{proyecto.descripcion}</p>
+
+                  <p>
+                    <strong>Tecnologías:</strong> {proyecto.tecnologia}
+                  </p>
+
+                  <a
+                    href={proyecto.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-primary"
+                  >
+                    Ver proyecto
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 
