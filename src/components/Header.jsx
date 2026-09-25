@@ -19,6 +19,10 @@ const Header = ({ nombre }) => {
           <a href="#proyectos" className="text-white text-decoration-none m-3">
             Proyectos
           </a>
+
+          <a href="#footer" className="text-white text-decoration-none m-3">
+            Contacto
+          </a>
         </nav>
       </div>
     </header>
