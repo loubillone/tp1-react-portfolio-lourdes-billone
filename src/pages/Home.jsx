@@ -11,10 +11,8 @@ const Home = () => {
   return (
     <div>
       <Header nombre="Lourdes Billone" />
-      <h1>Desarrolladora Web Full Stack</h1>
-      <p>Mi portfolio</p>
       <Hero
-        titulo="Lourdes Billone"
+        titulo="Desarrolladora Web Full Stack"
         descripcion="Especializada en crear experiencias web modernas y funcionales utilizando las últimas tecnologías. Transformo ideas en realidad digital."
       />
       <SobreMi />

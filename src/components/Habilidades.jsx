@@ -16,7 +16,7 @@ const Habilidades = () => {
     <>
       <section id="habilidades" className="habilidades">
         <div className="container">
-          <h2>Habilidades</h2>
+          <h2 className="titulo-habilidades">Habilidades</h2>
 
           <div className="row">
             {habilidades.map((habilidad) => (
