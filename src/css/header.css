@@ -16,3 +16,25 @@
 h1 {
   font-size: 5rem;
 }
+
+@media (max-width: 768px) {
+  .container-header {
+    flex-direction: column;
+    margin: 0 2rem;
+    gap: 2rem;
+  }
+
+  .container-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .header-nav {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .header-nav a {
+    font-size: 1.5rem;
+  }
+}

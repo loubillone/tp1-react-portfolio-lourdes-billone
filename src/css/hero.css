@@ -24,3 +24,51 @@
 .boton-portafolio {
   font-size: 1.8rem;
 }
+
+/* Tablet */
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero-img {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .hero p {
+    font-size: 2rem;
+  }
+}
+
+/* Celular */
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 2rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero-img {
+    width: 18rem;
+    height: 18rem;
+    display: block;
+    margin: 0 auto 3rem auto;
+  }
+
+  .hero p {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .hero .col-md-8 {
+    text-align: center;
+  }
+
+  .boton-portafolio {
+    font-size: 1.6rem;
+  }
+}
