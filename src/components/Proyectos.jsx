@@ -72,7 +72,7 @@ const Proyectos = () => {
                     href={proyecto.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-primary"
+                    className="btn btn-dark"
                   >
                     Ver proyecto
                   </a>
